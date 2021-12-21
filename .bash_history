@@ -305,3 +305,23 @@ git commit -m "m6"
 git log --oneline
 git branch
 git log --oneline
+cd third
+git mranch
+git branch
+git log --oneline
+git checkout feature
+git log --oneline
+git rebase master
+vi sample.txt
+git add .
+git commit -m "m7"
+git checkout master
+git log --online
+git log --oneline
+git checkout feature 
+git log --oneline
+git checkout master
+git rebase future
+git log --oneline
+vi sample.txt 
+vi examle.txt
