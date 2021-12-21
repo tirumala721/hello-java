@@ -192,3 +192,116 @@ git commit -m "m3"
 git commit -m "m4"
 git push origin feature
 git log --oneline
+vi new file.txt
+git add .
+git init
+git commit -m"m7"
+vi new file.txt
+git add .
+ls
+cd fourth
+mkdir fourth
+cd fourth
+vi new file.txt
+git status
+ls
+vi new file.txt
+vi example.txt
+git add .
+git commit -m "m7"
+vi example.txt
+git add .
+git commit -m "m8"
+git checkout master
+git log --oneline
+git checkout feature
+git log --oneline
+git checkout feature
+git cherry -pick3a1cc59
+git branch
+git log --oneline
+ls -ltr
+ls
+ll
+git checkout future
+git push origin feature
+git push origin master
+mkdir third
+cd third
+vi sample.txt
+git log --oneline
+ls
+vi sample.txt 
+git checkout master
+vi test.test
+git add .
+git commit -m "m5"
+git commit -m"m5"
+git commit -m "m5"
+git log --oneline
+vi test.test
+git add .
+git commit -m "m6"
+git log --oneline
+git merge feature
+git reset --hard HEAD~3
+git log --oneline
+git checkout feature
+git log --oneline
+git checkout master
+vi sample.txt
+git add .
+git commit -m "m5"
+vi sample.txt
+git status
+git add .
+git commit -m "m6"
+git log --oneline
+ls -ltr
+git merge --squash feature
+cd ..
+mkdir fourth
+mkdir fiveth
+cd fiveth
+mkdir fiveth
+mkdir sixth
+cd sixth
+cd third
+vi sample.txt
+git log --oneline
+git status
+git commit -m "merging"
+vi sample.txt
+git log --oneline
+ls -ltr
+cat sample.txt
+cat example.txt
+git reset HEAD~1
+git log --oneline
+ls -ltr
+git log --oneline
+git reset --hard HEAD~1
+git log --oneline
+git reset --hard HEAD~1
+ls -ltr
+git checkout feature
+git log --oneline
+git checkout feature
+git branch
+git status
+git rm example.txt
+git branch
+git status
+git log --oneline
+git checkout feature
+git log --oneline
+git checkout master
+vi test.txt
+git add .
+git commit -m "m5"
+vi test.txt
+git add .
+git commit -m "m6"
+git log --oneline
+git branch
+git log --oneline
