@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+	tools {
+	// install the maven version configured as "M3" and add it to the path.
+	maven "maven3"
+	}
+	
+   stages {
+     stage( "scm" ) {
+        steps {
+             git 'https://github.com/tirumala721/spring3-mvc-maven-xml-hello-world.git'
+        }
+    }   
+   stage("build") {
+       steps {
+             git 'https://github.com/tirumala721/spring3-mvc-maven-xml-hello-world.git'   
+            }
+        }
+    }
+}     
